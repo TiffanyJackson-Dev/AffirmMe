@@ -1,9 +1,11 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import DailyAffirmation from './pages/DailyAffirmation';
 
+
 function App() {
   return (
     <div>
+
       <nav style={{ padding: '1rem', textAlign: 'center' }}>
         <Link to="/">Home</Link> |{' '}
         <Link to="/daily">Daily Affirmation</Link>
