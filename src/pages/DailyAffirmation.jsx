@@ -33,7 +33,7 @@ function DailyAffirmation() {
             <h2>Your Daily Affirmation</h2>
             <p className='daily-affirmation'>{affirmation}</p>
             <button onClick={handleNewAffirmation}>New Affirmation</button>
-            <button onClick={handleSpeak}>Speak Affirmation</button>
+            <button type="button" onClick={handleSpeak}>Speak Affirmation</button>
         </div>
     );
 }

@@ -10,6 +10,7 @@ body {
   align-items: center;
 }
 
+/* Daily Affirmations Page */
 .daily-container {
   background-color: rgba(0, 0, 0, 0.6);
   position: relative;
@@ -53,5 +54,60 @@ button {
 
 button:hover {
   background: linear-gradient(to right, #5e60ce, #3f37c9);
+  transform: scale(1.05);
+}
+
+/* Mood Quiz Page  */
+
+form {
+  margin-top: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #1c1c3c;
+  color: #f0f0f0;
+}
+
+select option {
+  background-color: #1c1c3c;
+  color: #f0f0f0;
+}
+
+button[type="submit"] {
+  background: linear-gradient(to right, #6c5ce7, #341f97);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to right, #5e60ce, #3f37c9);
+  transform: scale(1.05);
+}
+
+button[type="button"] {
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  color: #0d0d2b;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button[type="button"]:hover {
   transform: scale(1.05);
 }
