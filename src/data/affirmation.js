@@ -9,6 +9,6 @@ const affirmations = [
     "I attract good things into my life.",
     "I am proud of how far I’ve come.",
     "I am growing and learning every day."
-  ];
-  
-  export default affirmations;
+];
+
+export default affirmations;
